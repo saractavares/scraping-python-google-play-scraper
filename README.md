@@ -84,7 +84,7 @@ Agora precisará executar a Venv. No terminal, digite e execute:
 
 Windows:
 ```
-scrap-env-win\Scripts\Activate.ps1 '''
+scrap-env-win\Scripts\Activate.ps1
 ```
   
 Linux:
