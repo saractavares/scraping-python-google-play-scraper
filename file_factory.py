@@ -1,6 +1,5 @@
 import os
 from tratamento import df_positiva, df_neutra, df_negativa
-
 from pandas_profiling import ProfileReport as pr
 
 

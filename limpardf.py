@@ -1,3 +1,0 @@
-print("LIMPANDO")
-
-import limpar
