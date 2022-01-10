@@ -7,9 +7,6 @@ df_reviews = pd.DataFrame(np.array(br_reviews), columns=['review'])
 df_completa = df_reviews.join(pd.DataFrame(df_reviews.pop('review').tolist()))
 df_final = df_completa.drop(columns=['reviewId', 'userName', 'userImage', 'repliedAt'])
 
-# # transformando os types
-# df = df_final.astype({"content": str, "score": int, "thumbsUpCount": int, "reviewCreatedVersion": str, 'at': int, "replyContent": str})  # não serviu até aqui
-
 # Filtragem conforme o score (estrelas) atribuído
 filtro_positiva = df_final['score'] >= 4
 df_positiva = df_final[filtro_positiva]
